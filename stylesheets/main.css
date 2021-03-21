@@ -1,0 +1,227 @@
+/* line 5, ../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: "Highway";
+  font-style: normal;
+  src: url("../images/highway.ttf");
+}
+/* line 13, ../sass/main.scss */
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+/* line 17, ../sass/main.scss */
+html {
+  min-height: 100%;
+  width: 100%;
+}
+
+/* line 22, ../sass/main.scss */
+html, body {
+  font-size: 24px;
+}
+
+/* line 26, ../sass/main.scss */
+body {
+  background: #000 url("../images/fondo.jpg");
+  background-size: contain;
+  color: #fff;
+  margin: 0;
+  font-family: 'Highway', sans-serif;
+}
+/* line 33, ../sass/main.scss */
+body a {
+  color: var(--body-color);
+}
+
+/* line 38, ../sass/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  text-shadow: 4px 4px 0 black;
+}
+
+/* line 43, ../sass/main.scss */
+.btn {
+  color: #000 !important;
+  border-radius: 100px;
+  font-size: 20px;
+}
+
+/* line 49, ../sass/main.scss */
+:root {
+  --success-color: #A8FABC;
+  --gray-light-color: #FDF0EC;
+  --gray-color: #E1E4ED;
+  --primary-color: #B8BDFF;
+  --success-color: #41D9A6;
+}
+
+/* line 57, ../sass/main.scss */
+.btn:focus {
+  box-shadow: none !important;
+}
+
+/* line 62, ../sass/main.scss */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* line 66, ../sass/main.scss */
+a, button {
+  transition: all 0.15s ease-in-out;
+}
+
+/* line 70, ../sass/main.scss */
+.logo-container {
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 76, ../sass/main.scss */
+.sun-container {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -1.75rem;
+}
+/* line 87, ../sass/main.scss */
+.sun-container .solecito {
+  -webkit-animation: spin 15s linear infinite;
+  -moz-animation: spin 15s linear infinite;
+  animation: spin 15s linear infinite;
+  position: absolute;
+}
+/* line 94, ../sass/main.scss */
+.sun-container .face {
+  z-index: 1000;
+  position: relative;
+  width: 40px;
+}
+
+/* line 101, ../sass/main.scss */
+.flyer {
+  border-radius: 100px;
+}
+
+/* line 105, ../sass/main.scss */
+.flyer-mobile {
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+}
+
+/* line 110, ../sass/main.scss */
+.flex-1 {
+  flex: 1;
+}
+
+/* line 114, ../sass/main.scss */
+.btn-success {
+  background: #A8FABC;
+  border: 0;
+}
+/* line 118, ../sass/main.scss */
+.btn-success:hover {
+  background: #A8FABC;
+}
+
+/* line 123, ../sass/main.scss */
+.btn-warning {
+  background: #F8FBA9;
+  border: 0;
+}
+/* line 127, ../sass/main.scss */
+.btn-warning:hover {
+  background: #A49BEC;
+}
+
+/* line 132, ../sass/main.scss */
+.btn-dark {
+  background: #000;
+  color: #fff !important;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
