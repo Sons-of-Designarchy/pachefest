@@ -183,31 +183,38 @@ a, button {
 }
 
 /* line 113, ../sass/main.scss */
+.boletos {
+  padding: 1rem;
+  border-radius: 100px;
+  margin-bottom: 1rem;
+}
+
+/* line 120, ../sass/main.scss */
 .btn-success {
   background: #A8FABC;
   border: 0;
 }
-/* line 117, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
 .btn-success:hover {
   background: #A8FABC;
 }
 
-/* line 122, ../sass/main.scss */
+/* line 129, ../sass/main.scss */
 .btn-warning {
   background: #F8FBA9;
   border: 0;
 }
-/* line 126, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 .btn-warning:hover {
   background: #A49BEC;
 }
 
-/* line 131, ../sass/main.scss */
+/* line 138, ../sass/main.scss */
 a:hover {
   color: #A49BEC;
 }
 
-/* line 135, ../sass/main.scss */
+/* line 142, ../sass/main.scss */
 .btn-dark {
   background: #000;
   color: #fff !important;
