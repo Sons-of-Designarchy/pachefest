@@ -103,7 +103,6 @@ a, button {
 }
 
 .flyer-mobile {
-  margin-top: -2rem;
   margin-bottom: 1rem;
 }
 
@@ -128,6 +127,10 @@ a, button {
     background: #A49BEC;
   }
 }
+
+a:hover {
+  color: #A49BEC;
+ }
 
 .btn-dark {
   background: #000;

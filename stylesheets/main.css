@@ -174,36 +174,40 @@ a, button {
 
 /* line 105, ../sass/main.scss */
 .flyer-mobile {
-  margin-top: -2rem;
   margin-bottom: 1rem;
 }
 
-/* line 110, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 .flex-1 {
   flex: 1;
 }
 
-/* line 114, ../sass/main.scss */
+/* line 113, ../sass/main.scss */
 .btn-success {
   background: #A8FABC;
   border: 0;
 }
-/* line 118, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 .btn-success:hover {
   background: #A8FABC;
 }
 
-/* line 123, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 .btn-warning {
   background: #F8FBA9;
   border: 0;
 }
-/* line 127, ../sass/main.scss */
+/* line 126, ../sass/main.scss */
 .btn-warning:hover {
   background: #A49BEC;
 }
 
-/* line 132, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
+a:hover {
+  color: #A49BEC;
+}
+
+/* line 135, ../sass/main.scss */
 .btn-dark {
   background: #000;
   color: #fff !important;
