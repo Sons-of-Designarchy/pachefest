@@ -30,336 +30,26 @@
   <body>
     <div class="">
       <div class="container">
-        <div class="logo-container text-center">
-          <div class="sun-container">
-            <img src="images/sol-solo.png" class="solecito" alt="" width="125px">
-            <img src="images/face.png" class="face" />
-          </div>
-          <img src="images/logo.png" alt="" class="logo img-fluid" width="350px">
-          <div class="mt-2">
-            <h4>17 DE ABRIL 2021 · 11-9 PM</h4>
-          </div>
-          <div class="mt-1">
-            <a href="https://goo.gl/maps/qkfderAgmHY2zenA6" target="_blank">@ FORO INDIE ROCKS</a>
-          </div>
-        </div>
         <div class="row no-gutters align-items-center">
-          <div class="col-lg-6 mx-auto">
-            <div class="text-center d-flex flex-column align-items-center justify-content-center h-100">
-              BOLETOS:
-              <div class="boletos">
-                <div id='collection-component-1616352270228'></div>
-                <script type="text/javascript">
-                /*<![CDATA[*/
-                (function () {
-                  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                  if (window.ShopifyBuy) {
-                    if (window.ShopifyBuy.UI) {
-                      ShopifyBuyInit();
-                    } else {
-                      loadScript();
-                    }
-                  } else {
-                    loadScript();
-                  }
-                  function loadScript() {
-                    var script = document.createElement('script');
-                    script.async = true;
-                    script.src = scriptURL;
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                    script.onload = ShopifyBuyInit;
-                  }
-                  function ShopifyBuyInit() {
-                    var client = ShopifyBuy.buildClient({
-                      domain: 'sativamx.myshopify.com',
-                      storefrontAccessToken: 'f3cbb13052a6c99428315628d66aa1e7',
-                    });
-                    ShopifyBuy.UI.onReady(client).then(function (ui) {
-                      ui.createComponent('collection', {
-                        id: '260885741679',
-                        node: document.getElementById('collection-component-1616352270228'),
-                        moneyFormat: '%24%20%7B%7Bamount%7D%7D',
-                        options: {
-                  "product": {
-                    "styles": {
-                      "product": {
-                        "@media (min-width: 601px)": {
-                          "max-width": "calc(50% - 40px)",
-                          "margin-left": "40px",
-                          "margin-bottom": "50px",
-                          "width": "calc(50% - 40px)"
-                        }
-                      },
-                      "title": {
-                        "font-size": "14px",
-                        "color": "#ffffff"
-                      },
-                      "button": {
-                        "font-weight": "bold",
-                        "font-size": "17px",
-                        "padding-top": "16.5px",
-                        "padding-bottom": "16.5px",
-                        ":hover": {
-                          "background-color": "#948cd4"
-                        },
-                        "background-color": "#a49bec",
-                        ":focus": {
-                          "background-color": "#948cd4"
-                        },
-                        "border-radius": "40px",
-                        "padding-left": "51px",
-                        "padding-right": "51px"
-                      },
-                      "quantityInput": {
-                        "font-size": "17px",
-                        "padding-top": "16.5px",
-                        "padding-bottom": "16.5px"
-                      },
-                      "price": {
-                        "font-weight": "bold",
-                        "color": "#ffffff"
-                      },
-                      "compareAt": {
-                        "font-weight": "bold",
-                        "color": "#ffffff"
-                      },
-                      "unitPrice": {
-                        "font-weight": "bold",
-                        "color": "#ffffff"
-                      }
-                    },
-                    "buttonDestination": "modal",
-                    "contents": {
-                      "options": false
-                    },
-                    "text": {
-                      "button": "Ver detalles"
-                    }
-                  },
-                  "productSet": {
-                    "styles": {
-                      "products": {
-                        "@media (min-width: 601px)": {
-                          "margin-left": "-40px"
-                        }
-                      }
-                    }
-                  },
-                  "modalProduct": {
-                    "contents": {
-                      "img": false,
-                      "imgWithCarousel": true,
-                      "button": false,
-                      "buttonWithQuantity": true
-                    },
-                    "styles": {
-                      "product": {
-                        "@media (min-width: 601px)": {
-                          "max-width": "100%",
-                          "margin-left": "0px",
-                          "margin-bottom": "0px"
-                        }
-                      },
-                      "button": {
-                        "font-weight": "bold",
-                        "font-size": "17px",
-                        "padding-top": "16.5px",
-                        "padding-bottom": "16.5px",
-                        ":hover": {
-                          "background-color": "#948cd4"
-                        },
-                        "background-color": "#a49bec",
-                        ":focus": {
-                          "background-color": "#948cd4"
-                        },
-                        "border-radius": "40px",
-                        "padding-left": "51px",
-                        "padding-right": "51px"
-                      },
-                      "quantityInput": {
-                        "font-size": "17px",
-                        "padding-top": "16.5px",
-                        "padding-bottom": "16.5px"
-                      },
-                      "title": {
-                        "font-family": "Karla, sans-serif",
-                        "font-weight": "bold",
-                        "font-size": "26px",
-                        "color": "#000000"
-                      },
-                      "price": {
-                        "font-family": "Karla, sans-serif",
-                        "font-weight": "normal",
-                        "font-size": "18px",
-                        "color": "#000000"
-                      },
-                      "compareAt": {
-                        "font-family": "Karla, sans-serif",
-                        "font-weight": "normal",
-                        "font-size": "15.299999999999999px",
-                        "color": "#000000"
-                      },
-                      "unitPrice": {
-                        "font-family": "Karla, sans-serif",
-                        "font-weight": "normal",
-                        "font-size": "15.299999999999999px",
-                        "color": "#000000"
-                      },
-                      "description": {
-                        "font-family": "Karla, sans-serif",
-                        "color": "#000000"
-                      }
-                    },
-                    "googleFonts": [
-                      "Karla"
-                    ],
-                    "text": {
-                      "button": "Agregar al carrito"
-                    }
-                  },
-                  "modal": {
-                    "styles": {
-                      "modal": {
-                        "background-color": "#b8bdff"
-                      }
-                    }
-                  },
-                  "option": {},
-                  "cart": {
-                    "styles": {
-                      "button": {
-                        "font-weight": "bold",
-                        "font-size": "17px",
-                        "padding-top": "16.5px",
-                        "padding-bottom": "16.5px",
-                        ":hover": {
-                          "background-color": "#948cd4"
-                        },
-                        "background-color": "#a49bec",
-                        ":focus": {
-                          "background-color": "#948cd4"
-                        },
-                        "border-radius": "40px"
-                      },
-                      "title": {
-                        "color": "#000000"
-                      },
-                      "header": {
-                        "color": "#000000"
-                      },
-                      "lineItems": {
-                        "color": "#000000"
-                      },
-                      "subtotalText": {
-                        "color": "#000000"
-                      },
-                      "subtotal": {
-                        "color": "#000000"
-                      },
-                      "notice": {
-                        "color": "#000000"
-                      },
-                      "currency": {
-                        "color": "#000000"
-                      },
-                      "close": {
-                        "color": "#000000",
-                        ":hover": {
-                          "color": "#000000"
-                        }
-                      },
-                      "empty": {
-                        "color": "#000000"
-                      },
-                      "noteDescription": {
-                        "color": "#000000"
-                      },
-                      "discountText": {
-                        "color": "#000000"
-                      },
-                      "discountIcon": {
-                        "fill": "#000000"
-                      },
-                      "discountAmount": {
-                        "color": "#000000"
-                      },
-                      "cart": {
-                        "background-color": "#b8bdff"
-                      },
-                      "footer": {
-                        "background-color": "#b8bdff"
-                      }
-                    },
-                    "text": {
-                      "title": "Mi carrito",
-                      "total": "Subtotal",
-                      "empty": "Tu carrito está vacio",
-                      "notice": "Información de envío y códigos de promoción se verán al final",
-                      "button": "Continuar a pago"
-                    }
-                  },
-                  "toggle": {
-                    "styles": {
-                      "toggle": {
-                        "font-weight": "bold",
-                        "background-color": "#a49bec",
-                        ":hover": {
-                          "background-color": "#948cd4"
-                        },
-                        ":focus": {
-                          "background-color": "#948cd4"
-                        }
-                      },
-                      "count": {
-                        "font-size": "17px"
-                      }
-                    }
-                  },
-                  "lineItem": {
-                    "styles": {
-                      "variantTitle": {
-                        "color": "#000000"
-                      },
-                      "title": {
-                        "color": "#000000"
-                      },
-                      "price": {
-                        "color": "#000000"
-                      },
-                      "fullPrice": {
-                        "color": "#000000"
-                      },
-                      "discount": {
-                        "color": "#000000"
-                      },
-                      "discountIcon": {
-                        "fill": "#000000"
-                      },
-                      "quantity": {
-                        "color": "#000000"
-                      },
-                      "quantityIncrement": {
-                        "color": "#000000",
-                        "border-color": "#000000"
-                      },
-                      "quantityDecrement": {
-                        "color": "#000000",
-                        "border-color": "#000000"
-                      },
-                      "quantityInput": {
-                        "color": "#000000",
-                        "border-color": "#000000"
-                      }
-                    }
-                  }
-                },
-                      });
-                    });
-                  }
-                })();
-                /*]]>*/
-                </script>
+          <div class="col-xl-5">
+            <div class="p-3 text-center d-flex flex-column align-items-center justify-content-center h-100">
+              <div class="logo-container text-center">
+                <div class="sun-container">
+                  <img src="images/sol-solo.png" class="solecito" alt="" width="125px">
+                  <img src="images/face.png" class="face" />
+                </div>
+                <img src="images/logo.png" alt="" class="logo img-fluid" width="350px">
+                <div class="mt-2">
+                  <h4>17 DE ABRIL 2021 · 11-9 PM</h4>
+                </div>
+                <div class="mt-1">
+                  <a href="https://goo.gl/maps/qkfderAgmHY2zenA6" target="_blank">@ FORO INDIE ROCKS</a>
+                </div>
               </div>
+              <img src="images/flyer.png" class="flyer-mobile img-fluid d-xl-none" />
+              <a class="btn btn-success inactive btn-block">
+                PRONTO INFO DE BOLETOS
+              </a>
               <a class="btn btn-warning inactive btn-block" href="https://t.me/joinchat/CHYrw_NslEAwYjQx" target="_blank">
                 ÚNETE AL GRUPO DE TELEGRAM ->
               </a>
@@ -370,7 +60,7 @@
                 ORGANIZADO POR <span style="color: #A49BEC;">SATIVA</span>
               </a>
             <!-- <h4 class="py-4">SUSCRÍBETE AL BOLETÍN Y ENTERATE DEL CARTEL COMPLETO Y LA PREVENTA</h4>  -->
-    
+  
             <h4 class="d-flex align-items-center justify-content-center py-4">
               <div class="p-1 flex">
                 CUPO LIMITADO
@@ -383,8 +73,10 @@
               </div>
             </h4>
           </div>
-
-
+        </div>
+        <div class="col-xl-7 d-none d-xl-block">
+          <div class="pt-lg-4 p-lg-3">
+            <img src="images/flyer.jpg" class="flyer img-fluid" />
           </div>
         </div>
       </div>
