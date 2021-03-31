@@ -104,13 +104,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 43, ../sass/main.scss */
+h2 {
+  font-size: 2rem !important;
+}
+
+/* line 47, ../sass/main.scss */
+h3 {
+  font-size: 1.5rem !important;
+}
+
+/* line 51, ../sass/main.scss */
 .btn {
   color: #000 !important;
   border-radius: 100px;
   font-size: 20px;
 }
 
-/* line 49, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 :root {
   --success-color: #A8FABC;
   --gray-light-color: #FDF0EC;
@@ -119,29 +129,29 @@ h1, h2, h3, h4, h5, h6 {
   --success-color: #41D9A6;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 65, ../sass/main.scss */
 .btn:focus {
   box-shadow: none !important;
 }
 
-/* line 62, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 .dropdown-toggle::after {
   display: none;
 }
 
-/* line 66, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 a, button {
   transition: all 0.15s ease-in-out;
 }
 
-/* line 70, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 .logo-container {
   margin-bottom: 1rem;
   position: relative;
   z-index: 1;
 }
 
-/* line 76, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 .sun-container {
   display: inline-block;
   position: relative;
@@ -153,68 +163,68 @@ a, button {
   justify-content: center;
   margin-bottom: -1.75rem;
 }
-/* line 87, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 .sun-container .solecito {
   -webkit-animation: spin 15s linear infinite;
   -moz-animation: spin 15s linear infinite;
   animation: spin 15s linear infinite;
   position: absolute;
 }
-/* line 94, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 .sun-container .face {
   z-index: 1000;
   position: relative;
   width: 40px;
 }
 
-/* line 101, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 .flyer {
   border-radius: 100px;
 }
 
-/* line 105, ../sass/main.scss */
+/* line 113, ../sass/main.scss */
 .flyer-mobile {
   margin-bottom: 1rem;
 }
 
-/* line 109, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 .flex-1 {
   flex: 1;
 }
 
-/* line 113, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 .boletos {
   padding: 1rem;
   border-radius: 100px;
   margin-bottom: 1rem;
 }
 
-/* line 120, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .btn-success {
   background: #A8FABC;
   border: 0;
 }
-/* line 124, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 .btn-success:hover {
   background: #A8FABC;
 }
 
-/* line 129, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 .btn-warning {
   background: #F8FBA9;
   border: 0;
 }
-/* line 133, ../sass/main.scss */
+/* line 141, ../sass/main.scss */
 .btn-warning:hover {
   background: #A49BEC;
 }
 
-/* line 138, ../sass/main.scss */
+/* line 146, ../sass/main.scss */
 a:hover {
   color: #A49BEC;
 }
 
-/* line 142, ../sass/main.scss */
+/* line 150, ../sass/main.scss */
 .btn-dark {
   background: #000;
   color: #fff !important;
