@@ -21,18 +21,68 @@ html {
 
 html, body {
   font-size: 24px;
+  height: 100%;
+}
+
+.header {
+  height: 96px;
 }
 
 body {
-  
   background: #000 url('../images/fondo.jpg');
   background-size: contain;
+  display: flex;
+  flex-direction: column;
   color: #fff;
   margin: 0;
   font-family: 'Highway', sans-serif; 
    a {
      color: var(--body-color);
    }
+}
+
+.content {
+  background: blue;
+  flex: 1;
+}
+
+.horarios {
+  padding: 3rem 0;
+
+  table {
+    width: 100%;
+    .conferencia {
+      background: #D5D0FF;  
+      td {
+        color: #000;
+      }
+    }
+
+    .showcase {
+      background: #B1FAC2;  
+      td {
+        color: #000;
+      }
+    }
+
+    .sorpresa {
+      background: #FAFCA3;  
+      td {
+        color: #000;
+      }
+    }
+
+    td, th {
+      border: 1px dashed #666;
+      padding: 0.5rem;
+      font-size: 16px;
+
+      &:first-child {
+       width: 40%;
+      }
+
+    }
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,18 +129,20 @@ a, button {
   margin-bottom: 1rem;
   position: relative;
   z-index: 1;
+  margin-top: .5rem;
 }
 
 .sun-container {
   display: inline-block;  
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: -1.75rem;  
+  z-index: 3;
 
   .solecito {
     -webkit-animation:spin 15s linear infinite;
@@ -102,7 +154,7 @@ a, button {
   .face {
     z-index: 1000;
     position: relative;
-    width: 40px;  
+    width: 30px;  
   }
 }
 
@@ -151,6 +203,15 @@ a:hover {
   background: #000;
   color: #fff!important;  
 }
+
+.list {
+  list-style: number;
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }

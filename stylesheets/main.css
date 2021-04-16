@@ -82,45 +82,102 @@ html {
 /* line 22, ../sass/main.scss */
 html, body {
   font-size: 24px;
+  height: 100%;
 }
 
-/* line 26, ../sass/main.scss */
+/* line 27, ../sass/main.scss */
+.header {
+  height: 96px;
+}
+
+/* line 31, ../sass/main.scss */
 body {
   background: #000 url("../images/fondo.jpg");
   background-size: contain;
+  display: flex;
+  flex-direction: column;
   color: #fff;
   margin: 0;
   font-family: 'Highway', sans-serif;
 }
-/* line 33, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
 body a {
   color: var(--body-color);
 }
 
-/* line 38, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
+.content {
+  background: blue;
+  flex: 1;
+}
+
+/* line 49, ../sass/main.scss */
+.horarios {
+  padding: 3rem 0;
+}
+/* line 52, ../sass/main.scss */
+.horarios table {
+  width: 100%;
+}
+/* line 54, ../sass/main.scss */
+.horarios table .conferencia {
+  background: #D5D0FF;
+}
+/* line 56, ../sass/main.scss */
+.horarios table .conferencia td {
+  color: #000;
+}
+/* line 61, ../sass/main.scss */
+.horarios table .showcase {
+  background: #B1FAC2;
+}
+/* line 63, ../sass/main.scss */
+.horarios table .showcase td {
+  color: #000;
+}
+/* line 68, ../sass/main.scss */
+.horarios table .sorpresa {
+  background: #FAFCA3;
+}
+/* line 70, ../sass/main.scss */
+.horarios table .sorpresa td {
+  color: #000;
+}
+/* line 75, ../sass/main.scss */
+.horarios table td, .horarios table th {
+  border: 1px dashed #666;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+/* line 80, ../sass/main.scss */
+.horarios table td:first-child, .horarios table th:first-child {
+  width: 40%;
+}
+
+/* line 88, ../sass/main.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-shadow: 4px 4px 0 black;
 }
 
-/* line 43, ../sass/main.scss */
+/* line 93, ../sass/main.scss */
 h2 {
   font-size: 2rem !important;
 }
 
-/* line 47, ../sass/main.scss */
+/* line 97, ../sass/main.scss */
 h3 {
   font-size: 1.5rem !important;
 }
 
-/* line 51, ../sass/main.scss */
+/* line 101, ../sass/main.scss */
 .btn {
   color: #000 !important;
   border-radius: 100px;
   font-size: 20px;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 :root {
   --success-color: #A8FABC;
   --gray-light-color: #FDF0EC;
@@ -129,105 +186,116 @@ h3 {
   --success-color: #41D9A6;
 }
 
-/* line 65, ../sass/main.scss */
+/* line 115, ../sass/main.scss */
 .btn:focus {
   box-shadow: none !important;
 }
 
-/* line 70, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
 .dropdown-toggle::after {
   display: none;
 }
 
-/* line 74, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
 a, button {
   transition: all 0.15s ease-in-out;
 }
 
-/* line 78, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .logo-container {
   margin-bottom: 1rem;
   position: relative;
   z-index: 1;
+  margin-top: .5rem;
 }
 
-/* line 84, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 .sun-container {
   display: inline-block;
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: -1.75rem;
+  z-index: 3;
 }
-/* line 95, ../sass/main.scss */
+/* line 147, ../sass/main.scss */
 .sun-container .solecito {
   -webkit-animation: spin 15s linear infinite;
   -moz-animation: spin 15s linear infinite;
   animation: spin 15s linear infinite;
   position: absolute;
 }
-/* line 102, ../sass/main.scss */
+/* line 154, ../sass/main.scss */
 .sun-container .face {
   z-index: 1000;
   position: relative;
-  width: 40px;
+  width: 30px;
 }
 
-/* line 109, ../sass/main.scss */
+/* line 161, ../sass/main.scss */
 .flyer {
   border-radius: 100px;
 }
 
-/* line 113, ../sass/main.scss */
+/* line 165, ../sass/main.scss */
 .flyer-mobile {
   margin-bottom: 1rem;
 }
 
-/* line 117, ../sass/main.scss */
+/* line 169, ../sass/main.scss */
 .flex-1 {
   flex: 1;
 }
 
-/* line 121, ../sass/main.scss */
+/* line 173, ../sass/main.scss */
 .boletos {
   padding: 1rem;
   border-radius: 100px;
   margin-bottom: 1rem;
 }
 
-/* line 128, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .btn-success {
   background: #A8FABC;
   border: 0;
 }
-/* line 132, ../sass/main.scss */
+/* line 184, ../sass/main.scss */
 .btn-success:hover {
   background: #A8FABC;
 }
 
-/* line 137, ../sass/main.scss */
+/* line 189, ../sass/main.scss */
 .btn-warning {
   background: #F8FBA9;
   border: 0;
 }
-/* line 141, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 .btn-warning:hover {
   background: #A49BEC;
 }
 
-/* line 146, ../sass/main.scss */
+/* line 198, ../sass/main.scss */
 a:hover {
   color: #A49BEC;
 }
 
-/* line 150, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 .btn-dark {
   background: #000;
   color: #fff !important;
+}
+
+/* line 207, ../sass/main.scss */
+.list {
+  list-style: number;
+}
+/* line 210, ../sass/main.scss */
+.list li {
+  margin-bottom: 0.5rem;
 }
 
 @-moz-keyframes spin {
