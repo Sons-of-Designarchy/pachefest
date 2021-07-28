@@ -29,16 +29,30 @@ html, body {
 }
 
 body {
-  background: #000 url('../images/fondo.jpg');
-  background-size: contain;
+  // background: #000 url('../images/fondo.jpg');
+  background: linear-gradient(#CFFED8, #FDE5B9, #FDE4BF, #FADCDE) no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  color: #fff;
   margin: 0;
   font-family: 'Highway', sans-serif; 
    a {
      color: var(--body-color);
    }
+}
+
+.page {
+  overflow: auto;
+
+}
+
+iframe {
+  width: 100%;  
+  min-height: 550px;
+
+  @media (max-width: 768px) {
+    min-height: 250px;
+  }
 }
 
 .content {
@@ -85,11 +99,6 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #fff;
-  text-shadow: 4px 4px 0 rgba(0,0,0,1);
-}
-
 h2 {
   font-size: 2rem !important;
 }
@@ -98,10 +107,12 @@ h3 {
   font-size: 1.5rem!important;
 }
 
-.btn {
+
+.btn, .form-control {
   color: #000!important;
   border-radius: 100px;
   font-size: 20px;
+  border: 1px solid #000;
 }
 
 :root {
@@ -179,7 +190,6 @@ a, button {
 
 .btn-success {
   background: #A8FABC;
-  border: 0;
 
   &:hover {
     background: #A8FABC;
@@ -188,7 +198,6 @@ a, button {
 
 .btn-warning {
   background: #F8FBA9;
-  border: 0;
 
   &:hover {
     background: #A49BEC;
