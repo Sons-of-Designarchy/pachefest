@@ -49,6 +49,7 @@ body {
 iframe {
   width: 100%;  
   min-height: 550px;
+  border: 2px solid #000;
 
   @media (max-width: 768px) {
     min-height: 250px;

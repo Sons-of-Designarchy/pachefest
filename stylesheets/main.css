@@ -113,6 +113,7 @@ body a {
 iframe {
   width: 100%;
   min-height: 550px;
+  border: 2px solid #000;
 }
 @media (max-width: 768px) {
   /* line 49, ../sass/main.scss */
@@ -121,66 +122,66 @@ iframe {
   }
 }
 
-/* line 58, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 .content {
   background: blue;
   flex: 1;
 }
 
-/* line 63, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 .horarios {
   padding: 3rem 0;
 }
-/* line 66, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 .horarios table {
   width: 100%;
 }
-/* line 68, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 .horarios table .conferencia {
   background: #D5D0FF;
 }
-/* line 70, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 .horarios table .conferencia td {
   color: #000;
 }
-/* line 75, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 .horarios table .showcase {
   background: #B1FAC2;
 }
-/* line 77, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 .horarios table .showcase td {
   color: #000;
 }
-/* line 82, ../sass/main.scss */
+/* line 83, ../sass/main.scss */
 .horarios table .sorpresa {
   background: #FAFCA3;
 }
-/* line 84, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 .horarios table .sorpresa td {
   color: #000;
 }
-/* line 89, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .horarios table td, .horarios table th {
   border: 1px dashed #666;
   padding: 0.5rem;
   font-size: 16px;
 }
-/* line 94, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 .horarios table td:first-child, .horarios table th:first-child {
   width: 40%;
 }
 
-/* line 102, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 h2 {
   font-size: 2rem !important;
 }
 
-/* line 106, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 h3 {
   font-size: 1.5rem !important;
 }
 
-/* line 111, ../sass/main.scss */
+/* line 112, ../sass/main.scss */
 .btn, .form-control {
   color: #000 !important;
   border-radius: 100px;
@@ -188,7 +189,7 @@ h3 {
   border: 1px solid #000;
 }
 
-/* line 118, ../sass/main.scss */
+/* line 119, ../sass/main.scss */
 :root {
   --success-color: #A8FABC;
   --gray-light-color: #FDF0EC;
@@ -197,22 +198,22 @@ h3 {
   --success-color: #41D9A6;
 }
 
-/* line 126, ../sass/main.scss */
+/* line 127, ../sass/main.scss */
 .btn:focus {
   box-shadow: none !important;
 }
 
-/* line 131, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 .dropdown-toggle::after {
   display: none;
 }
 
-/* line 135, ../sass/main.scss */
+/* line 136, ../sass/main.scss */
 a, button {
   transition: all 0.15s ease-in-out;
 }
 
-/* line 139, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 .logo-container {
   margin-bottom: 1rem;
   position: relative;
@@ -220,7 +221,7 @@ a, button {
   margin-top: .5rem;
 }
 
-/* line 146, ../sass/main.scss */
+/* line 147, ../sass/main.scss */
 .sun-container {
   display: inline-block;
   position: relative;
@@ -233,76 +234,76 @@ a, button {
   margin-bottom: -1.75rem;
   z-index: 3;
 }
-/* line 158, ../sass/main.scss */
+/* line 159, ../sass/main.scss */
 .sun-container .solecito {
   -webkit-animation: spin 15s linear infinite;
   -moz-animation: spin 15s linear infinite;
   animation: spin 15s linear infinite;
   position: absolute;
 }
-/* line 165, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 .sun-container .face {
   z-index: 1000;
   position: relative;
   width: 30px;
 }
 
-/* line 172, ../sass/main.scss */
+/* line 173, ../sass/main.scss */
 .flyer {
   border-radius: 100px;
 }
 
-/* line 176, ../sass/main.scss */
+/* line 177, ../sass/main.scss */
 .flyer-mobile {
   margin-bottom: 1rem;
 }
 
-/* line 180, ../sass/main.scss */
+/* line 181, ../sass/main.scss */
 .flex-1 {
   flex: 1;
 }
 
-/* line 184, ../sass/main.scss */
+/* line 185, ../sass/main.scss */
 .boletos {
   padding: 1rem;
   border-radius: 100px;
   margin-bottom: 1rem;
 }
 
-/* line 191, ../sass/main.scss */
+/* line 192, ../sass/main.scss */
 .btn-success {
   background: #A8FABC;
 }
-/* line 194, ../sass/main.scss */
+/* line 195, ../sass/main.scss */
 .btn-success:hover {
   background: #A8FABC;
 }
 
-/* line 199, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .btn-warning {
   background: #F8FBA9;
 }
-/* line 202, ../sass/main.scss */
+/* line 203, ../sass/main.scss */
 .btn-warning:hover {
   background: #A49BEC;
 }
 
-/* line 207, ../sass/main.scss */
+/* line 208, ../sass/main.scss */
 a:hover {
   color: #A49BEC;
 }
 
-/* line 211, ../sass/main.scss */
+/* line 212, ../sass/main.scss */
 .btn-dark {
   background: #000;
   color: #fff !important;
 }
 
-/* line 216, ../sass/main.scss */
+/* line 217, ../sass/main.scss */
 .list {
   list-style: number;
 }
-/* line 219, ../sass/main.scss */
+/* line 220, ../sass/main.scss */
 .list li {
   margin-bottom: 0.5rem;
 }
