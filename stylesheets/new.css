@@ -154,6 +154,7 @@ body {
 
 .btn-primary { background: var(--purple) !important; }
 .btn-success { background: var(--green) !important; }
+.btn-warning { background: var(--yellow) !important; }
 
 .video-iframe {
     height: 700px;
