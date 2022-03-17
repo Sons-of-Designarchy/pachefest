@@ -30,6 +30,7 @@
 html {
     min-height: 100%;
     width: 100%;
+    background: #fff;
 }
 
 html,
@@ -43,14 +44,26 @@ body {
 }
 
 body {
-    background: #fff url('../images/bg-pattern.jpg') no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background: linear-gradient(-45deg, var(--purple), var(--green), var(--yellow), var(--pink), var(--purple));
     display: flex;
     flex-direction: column;
     margin: 0;
     font-family: 'Apercu Mono', sans-serif;
     font-size: 18px;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.main-bg {
+    background: url('../images/bg-pattern.jpg') no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    mix-blend-mode: multiply;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
 }
 
 @keyframes gradient {
@@ -99,22 +112,6 @@ body {
 
 .box-content {
     padding: 1.5rem;
-}
-
-.main:after {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: linear-gradient(-45deg, var(--purple), var(--green), var(--yellow), var(--pink), var(--purple));
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    overflow: auto;
-    min-height: 100vh;
-    mix-blend-mode: multiply;
-    pointer-events: none;
 }
 
 .logo-container {
