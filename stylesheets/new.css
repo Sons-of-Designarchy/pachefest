@@ -212,10 +212,6 @@ body {
         font-size: 14px;
     }
 
-    .hero-image {
-        height: 370px;
-    }
-
     .hero-image img {
         object-fit: cover;
         width: 100%;
